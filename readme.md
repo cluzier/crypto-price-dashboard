@@ -1,7 +1,7 @@
 # Crypto Price Dashboard 📊
-<div class="flex">
-![](./public/img/pictures/img1.png)
-![](./public/img/img2.png)
+<div class="d-flex">
+  <img width="400" src="./public/img/img1.png"/>
+  <img width="400" src="./public/img/img2.png"/>
 </div>
 
 ## About
