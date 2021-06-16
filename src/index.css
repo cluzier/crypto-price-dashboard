@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #23272A;
+  scroll-behavior: smooth;
+
+}
+
+*::-webkit-scrollbar {
+  width: 15px;
+}
+*::-webkit-scrollbar-track {
+  background: #1E314F;
+  border-radius: 5px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #23272A;
+  border-radius: 20px;
+  border: 3px solid #1E314F;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  color: #111;
+  background-color: #fefefe;
+
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
+    monospace;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background-color: #060606;
+  }
+}
+#root {
+  min-height: 100vh;
+}
+
+.red {
+  animation: down 0.5s;
+}
+.green {
+  animation: up 0.5s;
+}
+
+@keyframes up {
+  0% {
+    background-color: transparent;
+  }
+  10% {
+    background-color: rgba(0, 200, 0, 0.1);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes down {
+  0% {
+    background-color: transparent;
+  }
+  10% {
+    background-color: rgba(200, 0, 0, 0.1);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.red-bold {
+  animation: down-bold 0.9s;
+}
+.green-bold {
+  animation: up-bold 0.9s;
+}
+
+@keyframes up-bold {
+  0% {
+    background-color: transparent;
+  }
+  10% {
+    background-color: rgba(16, 185, 129, 0.4);
+  }
+  60% {
+    background-color: rgba(16, 185, 129, 0.1);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+@keyframes down-bold {
+  0% {
+    background-color: transparent;
+  }
+  10% {
+    background-color: rgba(239, 68, 68, 0.4);
+  }
+  60% {
+    background-color: rgba(239, 68, 68, 0.1);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+
+.cryptobar {
+  display: flex;
+  padding-right: .7vmin;
+}
