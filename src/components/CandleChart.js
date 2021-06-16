@@ -15,7 +15,7 @@ const CandleChart = ({ height: h, candles }) => {
   useEffect(() => {
     const newBaseWidth = width / (candles.length || 1);
     const newWidth = newBaseWidth * candleWidthMulti;
-    setCandleWidth(clamp(newWidth, 20, 20));
+    setCandleWidth(clamp(newWidth, 10, 10));
   }, [width, candleWidthMulti, candles.length]);
 
   useEffect(() => {
