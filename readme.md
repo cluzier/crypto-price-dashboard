@@ -25,13 +25,6 @@ Shows current crypto prices and trade history
 - Add a better charting system
 
   
-## Screenshots
-
-<div class="flex">
-<img width="400" src="./public/img/img1.png"/>
-<img width="400" src="./public/img/img2.png"/>
-</div>
-  
 ## Installation 
 
 Install crypto-price-dashboard with npm
