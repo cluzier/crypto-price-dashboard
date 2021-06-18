@@ -1,23 +1,56 @@
+
 # Crypto Price Dashboard 📊
-<div class="d-flex">
-  <img width="400" src="./public/img/img1.png"/>
-  <img width="400" src="./public/img/img2.png"/>
-</div>
 
-## About
+[![GitHub issues](https://img.shields.io/github/issues/cluzier/crypto-price-dashboard)](https://github.com/cluzier/crypto-price-dashboard/issues)
+[![GitHub forks](https://img.shields.io/github/forks/cluzier/crypto-price-dashboard)](https://github.com/cluzier/crypto-price-dashboard/network)
+[![GitHub stars](https://img.shields.io/github/stars/cluzier/crypto-price-dashboard)](https://github.com/cluzier/crypto-price-dashboard/stargazers)
+[![GitHub license](https://img.shields.io/github/license/cluzier/crypto-price-dashboard)](https://github.com/cluzier/crypto-price-dashboard)
+  
 
-> Shows current crypto prices and trade history
+Shows current crypto prices and trade history
 
-## Installation & Startup
 
-- npm install
-- npm run start
+## Features
 
-## Code Contributors 🤝
+- Light/dark mode toggle (soon)
+- Live price changes
+- Toggle coins & reorganize them
+- Cross platform
+- Easily customizable
 
-> All contributors can be found [here](https://github.com/cluzier/crypto-price-dashboard/graphs/contributors)!
+  
+## Roadmap
 
-## Author
-👨‍💻 Conner Luzier
- - [Twitter](https://twitter.com/conner_luzier)
- - [Github](https://github.com/cluzier)
+- Add light/dark mode toggle
+- Add a better charting system
+
+  
+## Screenshots
+
+<img width="400" src="./public/img/img1.png"/>
+<img width="400" src="./public/img/img2.png"/>
+
+  
+## Installation 
+
+Install crypto-price-dashboard with npm
+
+```bash 
+  npm install
+  npm run start
+```
+    
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+  
+## Authors
+
+- [@cluzier](https://www.github.com/cluzier)
+
+  
