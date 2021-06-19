@@ -7,7 +7,7 @@ const formatPrice = (price, minimumFractionDigits) => {
 const formatTime = (date) => {
   return new Intl.DateTimeFormat("en-US", {
     timeStyle: "medium",
-    hour12: false,
+    hour12: true,
   }).format(date);
 };
 

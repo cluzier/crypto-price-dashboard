@@ -77,7 +77,7 @@ const CandleChart = ({ height: h, candles }) => {
         <svg
           style={{ touchAction: "manipulation" }}
           viewBox={`0 0 ${width} ${height}`}
-          //onWheel={handleWheel}
+          onWheel={handleWheel}
         >
           {candleEls}
         </svg>

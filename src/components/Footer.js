@@ -1,13 +1,11 @@
 import React from "react";
 
-const repoUrl = "https://www.github.com/cluzier/crypto-price-ticker/";
-const siteUrl = "https://cluzier.github.io";
-
 const Footer = () => {
   return (
-    <footer className="flex justify-end p-4 gap-4">
-      <Link href={repoUrl}>github</Link>
-      <Link href={siteUrl}>cluzier</Link>
+    <footer className="flex justify-center p-4 gap-4">
+      <div>
+          &copy; {new Date().getFullYear()} Copyright
+        </div>
     </footer>
   );
 };
