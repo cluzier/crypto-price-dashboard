@@ -6,9 +6,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/cluzier/crypto-price-dashboard)](https://github.com/cluzier/crypto-price-dashboard/stargazers)
 [![GitHub license](https://img.shields.io/github/license/cluzier/crypto-price-dashboard)](https://github.com/cluzier/crypto-price-dashboard)
   
-
 Shows current crypto prices and trade history
-
 
 ## Features
 
@@ -32,6 +30,14 @@ Install crypto-price-dashboard with npm
 ```bash 
   npm install
   npm run start
+```
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
 ```
     
 ## Contributing
