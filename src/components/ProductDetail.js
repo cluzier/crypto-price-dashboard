@@ -55,7 +55,6 @@ const ProductDetail = ({
       className="h-full flex-grow flex flex-col md:flex-row gap-4 p-4"
     >
       <div className="flex flex-col flex-grow-0 md:flex-grow h-full">
-        <div>Chart</div>
         <StyledCard
           isPositive={isPositive}
           className={`flex-grow flex flex-col p-4 border rounded ${borderColor}`}
@@ -86,7 +85,10 @@ const ProductDetail = ({
 
 const ProductName = ({ currency, product }) => {
   return (
-    <div className="text-white-700 dark:text-white-400">
+    <div className="flex text-white-700 dark:text-white-400">
+      <div className="cryptobar">
+        <span><img src={"https://icons.bitbot.tools/api/" + product.base_currency.toString().toLowerCase() + "/32x32"}></img></span>
+      </div>
       <span className="text-xl">{currency.name}</span>{" "}
       <span className="text-xs">{product.display_name}</span>
     </div>

@@ -22,7 +22,7 @@ const History = ({ messages }) => {
     <div className="overflow-y-hidden">
       <table>
         <thead>
-          <tr>
+          <tr className="text-center">
             <TD colSpan="4">Trade History</TD>
           </tr>
           <tr>
