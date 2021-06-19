@@ -29,7 +29,8 @@ Install crypto-price-dashboard with npm
 
 ```bash 
   npm install
-  npm run start
+  npm run build
+  serve -s build
 ```
 
 ## Running Tests
